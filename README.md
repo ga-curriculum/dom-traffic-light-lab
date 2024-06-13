@@ -25,7 +25,7 @@ tktk If there is not a starter code repo that students will fork and clone to st
 
 ## Level Up
 
-🚀 [Level Up](./level-up/README.md) tktk - remove section if no level ups exist.
+🚀 [Level Up](./level-up/README.md)
 
 ## Solution code
 
