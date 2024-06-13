@@ -1,4 +1,4 @@
-# ![[tktk Module Name] - Setup](./assets/hero.png)
+# ![Traffic Light Lab - Setup](./assets/hero.png)
 
 ## Setup
 
