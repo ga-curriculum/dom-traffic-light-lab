@@ -1,8 +1,8 @@
-# ![[tktk Module Name]](./assets/tktk-hero.png)
+# ![Traffic Light Lab](./assets/tktk-hero.png)
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module. Introduce the lab. What will the students build in this lab?
+tktk
 
 ## Prerequisites
 
@@ -25,19 +25,12 @@ tktk If there is not a starter code repo that students will fork and clone to st
 
 ## Level Up
 
-🚀 [Level Up](./level-up/README.md) tktk - remove section if no level ups exist.
+🚀 [Level Up](./level-up/README.md)
 
 ## Solution code
 
 🏁 [tktk Solution code](#tktk-external-repo-link-url)
 
-## Deployed sites
-
-tktk If there is not a deployed site related to this module this section and all of its content should be removed.
-
-🌐 [Live site](#tktk-deployed-app-url)
-
-🐙 [Repository](#tktk-repository-for-deployed-app)
 
 ## Internal resources
 
