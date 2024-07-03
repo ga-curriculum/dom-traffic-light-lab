@@ -1,4 +1,4 @@
-# ![Traffic Light Lab](./assets/tktk-hero.png)
+# ![Javascript Traffic Light Lab](./assets/dom-javascript-traffic-light-lab-header_1.png)
 
 ## About
 
@@ -6,17 +6,12 @@ tktk
 
 ## Prerequisites
 
-- tktk
+- Intro to the DOM
+- DOM Events
 
 ## Time to complete
 
-Estimated time to complete core lab exercise: **tktk min**
-
-## Starter code
-
-tktk If there is not a starter code repo that students will fork and clone to start this lab, then this section and all of its content should be removed.
-
-🟢 [Starter code](#tktk-repository-for-starter-code)
+Estimated time to complete core lab exercise: **60 min**
 
 ## Content
 
@@ -29,8 +24,7 @@ tktk If there is not a starter code repo that students will fork and clone to st
 
 ## Solution code
 
-🏁 [tktk Solution code](#tktk-external-repo-link-url)
-
+🏁 [Solution code]()
 
 ## Internal resources
 

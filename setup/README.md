@@ -1,4 +1,4 @@
-# ![Traffic Light Lab - Setup](./assets/hero.png)
+# ![Javascript Traffic Light Lab - Setup](./assets/hero.png)
 
 ## Setup
 
@@ -8,20 +8,20 @@ Open your Terminal application and navigate to your `~/code/ga/labs` directory:
 cd ~/code/ga/labs
 ```
 
-Make a new repository on [GitHub](https://github.com/) named traffic-light-lab.
+Make a new repository on [GitHub](https://github.com/) named javascript-traffic-light-lab.
 
 Clone a copy of your remote repo locally by using the `git clone` command:
 
 ```bash
-git clone https://github.com/<your-username>/traffic-light-lab.git
+git clone https://github.com/<your-username>/javascript-traffic-light-lab.git
 ```
 
 > 📚 Note: In the link above, where it says `<your-username>`, you should see the username from your GitHub account.
 
-Next, `cd` into your new cloned directory, `traffic-light-lab`:
+Next, `cd` into your new cloned directory, `javascript-traffic-light-lab`:
 
 ```bash
-cd traffic-light-lab
+cd javascript-traffic-light-lab
 ```
 
 Open the project's folder in your code editor:
@@ -30,44 +30,52 @@ Open the project's folder in your code editor:
 code .
 ```
 
-Next, create directories for your CSS and JS files: 
+Next, create directories for your CSS and JS files:
 
 ```bash
 mkdir css js
 ```
 
-Create your HTML, CSS, and JS files: 
+Create your HTML, CSS, and JS files:
 
 ```bash
 touch css/style.css js/app.js index.html
 ```
 
-Next, copy the following into your newly created `index.html` file: 
+### HTML Starter Code
+
+Next, copy the following into your newly created `index.html` file:
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="./css/style.css">
-  <script defer src="./js/app.js"></script>
-  <title>Traffic Light</title>
-</head>
-<body>
-  <div id="controlPanel">
-    <h1 id="stopButton" class="button">Stop</h1>
-    <h1 id="slowButton" class="button">Slow</h1>
-    <h1 id="goButton" class="button">Go</h1>
-  </div>
-  <div id="traffic-light">
-    <div id="stopLight" class="bulb"></div>
-    <div id="slowLight" class="bulb"></div>
-    <div id="goLight" class="bulb"></div>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Connect your CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <!-- Connect your JS -->
+    <script defer src="./js/app.js"></script>
+    <title>Javascript Traffic Light Lab</title>
+  </head>
+  <body>
+    <div id="controlPanel">
+      <h1 id="stopButton" class="button">Stop</h1>
+      <h1 id="slowButton" class="button">Slow</h1>
+      <h1 id="goButton" class="button">Go</h1>
+    </div>
+    <div id="traffic-light">
+      <div id="stopLight" class="bulb"></div>
+      <div id="slowLight" class="bulb"></div>
+      <div id="goLight" class="bulb"></div>
+    </div>
+  </body>
 </html>
 ```
+
+This markup provides the underlying structure of our traffic light.
+
+### CSS Starter Code
 
 Copy the following into `css/style.css`:
 
@@ -111,16 +119,25 @@ body {
 }
 ```
 
-Finally, in `js/app.js`, enter the following: 
+These styles will shape our markup into something that resembles a traffic light.
+
+### JS Starter Code
+
+Finally, in `js/app.js`, enter the following:
 
 ```js
 console.log('hello world!');
 ```
 
-Open `index.html` in the browser. You should see the following traffic light. If you open your browser console, you should see 'hello world!'
+Next, open `index.html` in your web browser. You should see a traffic light. Additionally, open your browser's console (usually accessible by right-clicking the page and selecting "Inspect" or "Inspect Element," then navigating to the "Console" tab). You should see the message `'hello world!'` printed in the console.
 
 <img src="./assets/hello-world.png" alt="traffic light lab starting point">
 
-The traffic light won't do anything yet when you click the buttons - that's where you come in! 
+At this stage, the traffic light won't respond when you click the buttons. Your task will be to add functionality to the traffic light.
 
-If either are not showing up correctly, go back and make sure your directory structure is correct, and that everything was copied over from the above codeblocks. 
+If you don't see the traffic light or the console message, check the following:
+
+- Ensure your directory structure matches what is outlined in the file setup above.
+- Verify that all necessary starter code has been copied over correctly from the provided code blocks.
+
+Make any necessary corrections, and try again.

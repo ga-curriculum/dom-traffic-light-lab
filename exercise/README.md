@@ -1,19 +1,34 @@
-# ![Traffic Light Lab - Exercise](./assets/hero.png)
+# ![Javascript Traffic Light Lab - Exercise](./assets/hero.png)
 
-## Traffic Light Lab
+## JavaScript Traffic Light Lab
 
-The goal of this lab is to make the provided traffic light function according to the following curriculum: 
+Welcome to the JavaScript Traffic Light Lab! The goal of this lab is to make the traffic light function according to the criteria below. All your work will be done in the `js/app.js` file, so no changes are needed in the `index.html` or `css/style.css` files.
 
-- When a button is pressed, the corresponding bulb should change color. For example, when the "Go" button is pressed, the bottom bulb should change to green. 
-- When a button is pressed, any __other__ bulb which is currently "on" should switch to "off". 
+### Lab Objectives
 
->❗ You will not need to make any changes or adjustments to the `index.html` file or the `css/style.css` file during this lab. All of your work will take place inside of the `js/app.js` file. 
+1. **Button Functionality**:
+   - When a button is pressed, the corresponding bulb should change color.
+     - Example: When the "Go" button is pressed, the bottom bulb should change to green.
+   
+2. **Single Active Bulb**:
+   - When a button is pressed, any other bulb that is currently "on" should switch to "off".
 
-### Hints
+> ❗ **Note**: You will not need to make any changes or adjustments to the `index.html` file or the `css/style.css` file during this lab. All of your work will take place inside of the `js/app.js` file.
 
-- You'll make use of `getElementById` and `addEventListener` to accomplish this lab. Take some time to think through this problem before you jump into coding. 
+### Hints and Tips
 
-- You'll a way to impact the style of a DOM element in JavaScript. Reference the "Modifying an Element" section of the "Intro to the DOM" lesson for a refresher, if needed! 
+- **DOM Selectors**: 
+  - Use `querySelector` or `getElementById` to select elements.
+  - Use `addEventListener` to handle button clicks.
+  
+- **Modifying Styles**:
+  - To change the color of a bulb, modify its style using JavaScript.
+  - Reference the "Modifying an Element" section of the "Intro to the DOM" lesson for a refresher.
 
-- The correct color for an "off" bulb can be found in the default `.bulb` styling in `css/style.css`. 
+- **Default Styles**:
+  - The correct color for an "off" bulb can be found in the default `.bulb` styling in `css/style.css`.
+
+### Encouragement
+
+Take your time to think through the problem before diving into coding. Experiment and test different approaches. This is a great opportunity to practice your DOM manipulation skills in JavaScript. Have fun and happy coding! 🚦
 
